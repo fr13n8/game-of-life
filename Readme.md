@@ -67,6 +67,6 @@ And for rotate the shape, press the `RCM(right click mouse)`.
 
 ## Install
 To quickly start the game, use this command. 
-```azure
+```
 go run -tags=example github.com/fr13n8/game-of-life@latest
 ```
