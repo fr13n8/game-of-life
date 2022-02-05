@@ -32,7 +32,7 @@ The implementation has the following modes.
 
 In this mode, the first generation of cells is randomly generated.
 
-###Usage:
+### Usage:
 Random mode can be started by `pressing the key (G)`. \
 Then press the key `Enter` to start the game.
 
@@ -42,7 +42,7 @@ Then press the key `Enter` to start the game.
 
 Drawing mode will allow you to experiment by creating new shapes with the mouse
 
-####Usage:
+#### Usage:
 Press the key `ESC` for stopping the game. \
 Then you can draw the shape with the `LCM(left click mouse)`. \
 for the eraser, hold the `Lshift(left shift)` and use the `left mouse button` to delete the cells
@@ -55,7 +55,7 @@ The ready-made shapes' mode allows you to use ready-made shapes from this list. 
 The list will be updated.
 1.Glider
 
-####Usage: 
+#### Usage: 
 Press the `number` of the shape you want to use. \
 The shape will be drawn on the screen. \
 And for rotate the shape, press the `RCM(right click mouse)`.
@@ -64,7 +64,7 @@ And for rotate the shape, press the `RCM(right click mouse)`.
 
 ``other tips for managing the game can be found in the upper left corner``
 
-##Install
+## Install
 To quickly start the game, use this command. 
 ```azure
 go run -tags=example github.com/fr13n8/game-of-life@latest
