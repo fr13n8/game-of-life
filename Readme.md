@@ -45,7 +45,7 @@ Drawing mode will allow you to experiment by creating new shapes with the mouse
 #### Usage:
 Press the key `ESC` for stopping the game. \
 Then you can draw the shape with the `LCM(left click mouse)`. \
-for the eraser, hold the `Lshift(left shift)` and use the `left mouse button` to delete the cells
+For the eraser, hold the `Lshift(left shift)` and use the `left mouse button` to delete the cells.
 
 ![Drawing mode](./gifs/draw.gif)
 
@@ -53,7 +53,8 @@ for the eraser, hold the `Lshift(left shift)` and use the `left mouse button` to
 
 The ready-made shapes' mode allows you to use ready-made shapes from this list. \
 The list will be updated.
-1.Glider
+
+1. Glider
 
 #### Usage: 
 Press the `number` of the shape you want to use. \
