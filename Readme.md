@@ -32,7 +32,7 @@ The implementation has the following modes.
 
 In this mode, the first generation of cells is randomly generated.
 
-### Usage:
+#### Usage:
 Random mode can be started by `pressing the key (G)`. \
 Then press the key `Enter` to start the game.
 
