@@ -197,22 +197,11 @@ func (w *World) Init() {
 }
 
 func (w *World) InitCells() {
-	around := [8][2]int{
-		{-1, -1},
-		{-1, 0},
-		{-1, 1},
-		{0, -1},
-		{0, 1},
-		{1, -1},
-		{1, 0},
-		{1, 1},
-	}
-
 	for i := 0; i < w.Height; i++ {
 		for j := 0; j < w.Width; j++ {
 			var aroundCells []*Cell
 			w.Cells[i][j].UnLink()
-			for _, a := range around {
+			for _, a := range neighbours {
 				y := i + a[0]
 				x := j + a[1]
 

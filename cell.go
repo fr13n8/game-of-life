@@ -3,6 +3,17 @@ package main
 import "image/color"
 
 var (
+	neighbours = [8][2]int{
+		{-1, -1},
+		{-1, 0},
+		{-1, 1},
+		{0, -1},
+		{0, 1},
+		{1, -1},
+		{1, 0},
+		{1, 1},
+	}
+
 	LiveColor   = color.RGBA{R: 136, G: 0, B: 255, A: 255}
 	ShadowColor = color.RGBA{R: 255, G: 255, B: 255, A: 100}
 	BorderColor = color.RGBA{R: 255, G: 255, B: 255, A: 255}

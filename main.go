@@ -15,6 +15,7 @@ func main() {
 
 	ebiten.SetWindowSize(ScreenWidth, ScreenHeight)
 	ebiten.SetWindowTitle("Game of life!")
+
 	if err := ebiten.RunGame(world); err != nil {
 		panic(err)
 	}
