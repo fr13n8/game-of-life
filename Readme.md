@@ -18,7 +18,7 @@ The evolution of the cells follows this four simple rules:
 
 
 ## About implementation
-This is a running implementation of Conway's life game written on go. \
+This is a implementation of Conway's life game written on go. \
 For graphical implementation, the [ebiten](https://github.com/hajimehoshi/ebiten) 2d engine was used.
 
 ## Usage
